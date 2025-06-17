@@ -1,0 +1,37 @@
+ <!DOCTYPE html> 
+ <html>
+    <head>
+<meta charset="UTF8"/> 
+<meta name="viewport" content="width=device-width,intial-scale=1.0" />
+</head>
+<body>
+    <h1>sql</h1>
+    <img src="/DATABASE/images.png" height="200px" width="200px">
+    <p>SQL was initially developed at IBM by Donald D. Chamberlin and Raymond F. Boyce after learning about the relational model from Edgar F. Codd[12] in the early 1970s.[13] This version, initially called SEQUEL (Structured English Query Language), was designed to manipulate and retrieve data stored in IBM's original quasirelational database management system, System R, which a group at IBM San Jose Research Laboratory had developed during the 1970s.[13]
+
+Chamberlin and Boyce's first attempt at a relational database language was SQUARE (Specifying Queries in A Relational Environment), but it was difficult to use due to subscript/superscript notation. After moving to the San Jose Research Laboratory in 1973, they began work on a sequel to SQUARE.[12] The original name SEQUEL, which is widely regarded as a pun on QUEL, the query language of Ingres,[14] was later changed to SQL (dropping the vowels) because "SEQUEL" was a trademark of the UK-based Hawker Siddeley Dynamics Engineering Limited company.[15] The label SQL later became the acronym for Structured Query Language.[16]
+
+After testing SQL at customer test sites to determine the usefulness and practicality of the system, IBM began developing commercial products based on their System R prototype, including System/38, SQL/DS, and IBM Db2, which were commercially available in 1979, 1981, and 1983, respectively.[17] IBM's endorsement caused the industry to move to SQL from alternatives like QUEL.[18]
+
+In the late 1970s, Relational Software, Inc. (now Oracle Corporation) saw the potential of the concepts described by Codd, Chamberlin, and Boyce, and developed their own SQL-based RDBMS with aspirations of selling it to the U.S. Navy, Central Intelligence Agency, and other U.S. government agencies. In June 1979, Relational Software introduced one of the first commercially available implementations of SQL, Oracle V2 (Version2) for VAX computers.
+
+By 1986, ANSI and ISO standard groups officially adopted the standard "Database Language SQL" language definition. New versions of the standard were published in 1989, 1992, 1996, 1999, 2003, 2006, 2008, 2011,[12] 2016 and most recently, 2023.[19]
+Interoperability and standardization
+SQL language revisions
+
+    SQL-86 SQL-89 SQL-92 SQL:1999 SQL:2003 SQL:2006 SQL:2008 SQL:2011 SQL:2016 SQL:2019 SQL:2023
+
+    vte
+
+Overview
+
+SQL implementations are incompatible between vendors and do not necessarily completely follow standards. In particular, date and time syntax, string concatenation, NULLs, and comparison case sensitivity vary from vendor to vendor. PostgreSQL[20] and Mimer SQL[21] strive for standards compliance, though PostgreSQL does not adhere to the standard in all cases. For example, the folding of unquoted names to lower case in PostgreSQL is incompatible with the SQL standard,[22] which says that unquoted names should be folded to upper case.[23] Thus, according to the standard, Foo should be equivalent to FOO, not foo.
+
+Popular implementations of SQL commonly omit support for basic features of Standard SQL, such as the DATE or TIME data types. The most obvious such examples, and incidentally the most popular commercial and proprietary SQL DBMSs, are Oracle (whose DATE behaves as DATETIME,[24][25] and lacks a TIME type)[26] and MS SQL Server (before the 2008 version). As a result, SQL code can rarely be ported between database systems without modifications.
+Reasons for incompatibility
+
+Several reasons for the lack of portability between database systems include:
+
+    The complexity and size of the SQL standard means that most implementers do not support the entire standard.
+    The SQL standard does not specify the database behavior in some important areas (e.g., indices, file storage), leaving implementations to decide how to behave.</p>
+ </html
